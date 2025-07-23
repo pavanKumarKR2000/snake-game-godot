@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://w8he5q210wjs"]
+
+[ext_resource type="FontFile" uid="uid://b2wxr2e1nf4ga" path="res://fonts/PoetsenOne-Regular.ttf" id="1_8juob"]
+[ext_resource type="Texture2D" uid="uid://q3a4ye4ty85s" path="res://graphics/apple.png" id="2_bak1h"]
+
+[node name="Score" type="Node2D"]
+
+[node name="ScoreText" type="Label" parent="."]
+offset_left = 42.0
+offset_top = 1.0
+offset_right = 96.0
+offset_bottom = 79.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 0
+theme_override_constants/paragraph_spacing = 0
+theme_override_constants/shadow_offset_x = 0
+theme_override_fonts/font = ExtResource("1_8juob")
+theme_override_font_sizes/font_size = 32
+text = "0
+"
+
+[node name="Apple" type="Sprite2D" parent="."]
+position = Vector2(21, 20)
+texture = ExtResource("2_bak1h")
